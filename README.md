@@ -21,7 +21,7 @@ This project implements a machine learning pipeline for classifying news article
 5. **Sample Predictions**
     - Predict categories for sample headlines.
 
-# Requirements
+## Requirements
 
 - pandas
 - nltk
@@ -29,10 +29,21 @@ This project implements a machine learning pipeline for classifying news article
 - matplotlib
 - seaborn
 
-# Usage
+## Usage
 1. Install the required libraries:
 ```
 pip install pandas nltk scikit-learn matplotlib seaborn
 ```
 2. Download the dataset and place it in the appropriate folder.
 3. Run the script to preprocess data, train models, and evaluate them.
+
+## Example Predictions:
+
+Input: "Stock market hits record high amid economic optimism"
+Predicted Category: Business 📈
+
+Input: "Champions League final ends in dramatic penalty shootout"
+Predicted Category: Sports ⚽
+
+Input: "NASA announces new mission to explore distant exoplanets"
+Predicted Category: Science/Technology 🚀
